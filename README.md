@@ -6,7 +6,7 @@ Here's how you can install `google-cloud-cli`:
 Create a `apt.keys` file with the package's public GPG key:
 
 <details>
-<summary>Click to view <code>apt.keys</code></summary>
+<summary><code>apt.keys</code></summary>
 
 ```text
 -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -72,24 +72,16 @@ MruHL5H6pwlBdK65+wnQai0gr9UEYYK+kwoUH+8p1rD8+YBnVY4d7SM=
 ### Step 2: Create a **sources.list** with the package's Debian repo
 Upload a `sources.list` file with gcloud's Debian repo:
 
-<details open>
-<summary><code>sources.list</code></summary>
-
 ```
 deb https://packages.cloud.google.com/apt cloud-sdk main
 ```
-</details>
 
 ### Step 3: Add the package to **packages.txt**
 Add `google-cloud-cli` to a `packages.txt` file:
 
-<details open>
-<summary><code>packages.txt</code></summary>
-
 ```
 google-cloud-cli
 ```
-</details>
 
 Once you implement all three steps, gcloud CLI should be successfully installed on Streamlit Cloud!
 
